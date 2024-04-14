@@ -1,0 +1,15 @@
+<div class="transactions">
+    <mat-list >
+    
+    <!--create a foreach for angular 17 for transactions value -->
+    <mat-list-item style="height: 100px;" *ngFor="let transaction of transactions">
+        <img matListAvatar src="{{transaction.img}}" alt="{{transaction.description}}">
+        &nbsp;
+
+        <span >{{transaction.title}}</span><br/>
+      <span >{{transaction.description}}</span><br/>
+      <span matLine style="color: red;">{{transaction.price}}</span>
+    </mat-list-item>
+    </mat-list>
+    
+</div>

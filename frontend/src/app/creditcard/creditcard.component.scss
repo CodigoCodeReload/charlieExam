@@ -1,0 +1,33 @@
+// create style for credit card
+.card {
+    width: 288px;
+    height: 180px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgb(75, 79, 91) 0%, rgb(107, 113, 131) 100%);
+
+  }
+  
+  .logo{
+    width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 200px;
+  }
+
+  
+.card-content {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card-detail {
+    color: white;
+    position: absolute;
+    margin-top: 78px;
+    font-size: 1.3em;
+}

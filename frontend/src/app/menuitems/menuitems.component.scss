@@ -1,0 +1,32 @@
+section {
+    display: table;
+    margin: 0 auto;
+  }
+  
+  .menutiem-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 80px;
+  }
+  
+  .menutiem-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .menutiem-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .menutiem-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .menutiem-button-container {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+  }
